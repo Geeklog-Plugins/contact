@@ -1,0 +1,99 @@
+.contactsbox {
+  border:1px solid #CCCCCC;
+}
+.contactform{
+padding:20px;
+margin-top:20px;
+}
+.contact_captcha {
+padding:20px;
+}
+
+/* ----------- contactform ----------- */
+#contactform{
+border:solid 2px #bbb;
+background:#CCCCCC;
+}
+#contactform h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#contactform p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #bbb;
+padding-bottom:10px;
+}
+#contactform label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#contactform .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#contactform input, #contactform textarea{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #bbb;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#contactform textarea{
+height:100px;
+}
+#cc_checkbox {
+padding-bottom: 20px;
+}
+.cc_checkbox{
+font-size:12px;
+border:0px;
+width:20px !important;
+margin-left:150px !important;
+margin-right:5px !important;
+}
+#contactform button{
+clear:both;
+margin-left:185px;
+min-width:125px;
+height:31px;
+border:0px;
+background:#666666;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#contactform button:hover{
+background:#555555;
+cursor:pointer;
+}
+
+#contact_captcha p{
+font-size:11px;
+color:#666666;
+margin-bottom:0px;
+border-bottom:0px;
+padding-bottom:0px;
+}
+#contact_captcha input {
+float:none;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #bbb;
+width:auto;
+margin:2px;
+}

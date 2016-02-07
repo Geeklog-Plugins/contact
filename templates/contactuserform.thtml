@@ -1,0 +1,38 @@
+{# begin {templatelocation} #}
+
+<div id="contactform" class="contactform">
+<form  class="uk-form" id="form" name="form" method="post" action="{site_url}/contact/index.php">
+<h1>{contact_form}</h1>
+<p>{form_message}</p>
+<div>
+<label>{lang_username}
+<span class="small">{add_your_name}</span>
+</label>
+<input type="text" name="author" id="name" value="{username}" maxlength="32"{xhtml}>
+</div>
+<div style="clear:both;"></div>
+<div>
+<label>{lang_useremail}
+<span class="small">{add_valid_address}</span>
+</label>
+<input type="text" name="authoremail" id="email" value="{useremail}" maxlength="96"{xhtml}>
+</div>
+<div style="clear:both;"></div>
+<div>
+<label>{lang_message}
+</label>
+<textarea name="message" wrap="physical">{message}</textarea>
+<div style="clear:both;"><input type="checkbox" class="cc_checkbox" name="cc"{cc}{xhtml}>{lang_cc_description}</div>
+</div>
+<div style="clear:both;"></div>
+
+<div class="contact_captcha" id="contact_captcha">
+{captcha}
+</div>
+<input type="hidden" name="what" value="contact"{xhtml}>
+<div style="margin-bottom:25px;"><input type="submit" value="{lang_submit}"{xhtml}></div>
+
+</form>
+</div>
+
+{# end {templatelocation} #}
