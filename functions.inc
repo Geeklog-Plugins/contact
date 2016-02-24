@@ -193,6 +193,7 @@ function plugin_upgrade_contact()
         
         case '1.1' :
         case '1.2.0' :
+        case '1.2.1' :
         
 		default :
 			// update plugin version number
